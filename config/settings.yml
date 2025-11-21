@@ -1,0 +1,14 @@
+# SearXNG Configuration Override
+# This file overrides the default settings
+
+search:
+  formats:
+    - html
+    - json
+    - csv
+    - rss
+
+server:
+  limiter: false
+  secret_key: "replace-this-with-a-real-secret-key-in-production"
+
